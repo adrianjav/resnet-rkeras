@@ -4,7 +4,7 @@ This is the simplest implementation of ResNet in Keras for R you can think of. I
 
 The implementation is based on [this one](https://github.com/facebook/fb.resnet.torch/) written in Lua with the Torch Framework. It also implements the small tweak of removing the ReLU activations at the end of each residual block as described [here](http://torch.ch/blog/2016/02/04/resnets.html).
 
-**Note that you have to call `install_keras()` after installing it in the usual way.**
+**Note that you have to call `install_keras()` in a R session after installing the environment.**
 
 A simple example of how to use the code is shown below.
 
